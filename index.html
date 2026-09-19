@@ -146,11 +146,28 @@
       });
     }
 
+    const GIST_API = 'https://api.github.com/gists/232142008897e8e0d16703e99b7ec770';
+
     async function update() {
       try {
-        const res = await fetch('status.json?_t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error('Status not found');
-        const data = await res.json();
+        let data = null;
+        try {
+          const res = await fetch(GIST_API + '?_t=' + Date.now(), { cache: 'no-store' });
+          if (res.ok) {
+            const gist = await res.json();
+            if (gist.files && gist.files['status.json'] && gist.files['status.json'].content) {
+              data = JSON.parse(gist.files['status.json'].content);
+            }
+          }
+        } catch (gistErr) {
+          console.warn('Gist fetch failed, attempting local fallback...', gistErr);
+        }
+
+        if (!data) {
+          const localRes = await fetch('status.json?_t=' + Date.now(), { cache: 'no-store' });
+          if (!localRes.ok) throw new Error('Status unavailable');
+          data = await localRes.json();
+        }
         
         document.getElementById('clock').innerText = new Date().toLocaleTimeString();
         const badge = document.getElementById('statusBadge');
