@@ -1,22 +1,21 @@
 {
   "serverOnline": true,
-  "serverPid": 2828,
-  "joinCode": "52ER-HEJR",
   "world": "5MAN When",
-  "mode": "3 Lives Hardcore",
-  "updatedAt": "2026-09-19T23:14:56.994Z",
-  "activePlayers": [
+  "updatedAt": "2026-09-19T23:20:56.762Z",
+  "players": [
     {
-      "playerName": "I AM YUTA OKKOTSU",
+      "charName": "Nexus",
+      "playerName": "Nexus",
+      "lives": 3,
+      "hearts": "❤️❤️❤️",
+      "isOnline": false
+    },
+    {
       "charName": "Nico D. Vinland",
-      "charGuid": "c4fb11c4448a98b162cb6ba05413f6b5",
-      "joinedAt": "2026-09-19T23:10:47Z",
-      "activeMinutes": 4,
-      "eligibleForHearts": false,
+      "playerName": "I AM YUTA OKKOTSU",
       "lives": 2,
-      "hearts": null,
-      "isAlive": true,
-      "status": "ALIVE"
+      "hearts": "❤️❤️🖤",
+      "isOnline": false
     }
   ]
 }
