@@ -1,14 +1,14 @@
 {
   "serverOnline": true,
   "world": "DW HC",
-  "updatedAt": "2026-09-20T04:45:54.289Z",
+  "updatedAt": "2026-09-20T05:14:54.503Z",
   "players": [
     {
       "charName": "Nexus",
       "playerName": "Nexus",
       "lives": 3,
       "hearts": "❤️❤️❤️",
-      "isOnline": true
+      "isOnline": false
     },
     {
       "charName": "Nico D. Vinland",
