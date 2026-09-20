@@ -1,7 +1,7 @@
 {
   "serverOnline": true,
   "world": "DW HC",
-  "updatedAt": "2026-09-20T21:11:28.146Z",
+  "updatedAt": "2026-09-20T21:44:28.335Z",
   "players": [
     {
       "charName": "Nexus",
@@ -15,7 +15,7 @@
       "playerName": "ASHITO AOI",
       "lives": 2,
       "hearts": "❤️❤️🖤",
-      "isOnline": true
+      "isOnline": false
     },
     {
       "charName": "retard",
