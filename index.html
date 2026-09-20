@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>5MAN When — Status</title>
+  <title>DW HC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     body {
-      background: #08090c;
+      background: #090a0f;
       color: #e2e8f0;
       min-height: 100vh;
       display: flex;
@@ -18,86 +18,71 @@
     }
     .panel {
       width: 100%;
-      max-width: 440px;
-      background: #0e1017;
-      border: 1px solid #1a1e2b;
-      border-radius: 14px;
-      padding: 24px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      max-width: 400px;
+      background: #11131a;
+      border: 1px solid #1d212d;
+      border-radius: 12px;
+      padding: 20px;
     }
     .header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #1a1e2b;
-      margin-bottom: 18px;
+      align-items: baseline;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #1d212d;
+      margin-bottom: 14px;
     }
-    .world-name {
-      font-size: 17px;
+    .title {
+      font-size: 16px;
       font-weight: 700;
       color: #f8fafc;
       letter-spacing: -0.2px;
     }
-    .status {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
+    .status-line {
+      font-size: 13px;
+      color: #64748b;
+    }
+    .status-text {
       font-weight: 600;
-      letter-spacing: 0.3px;
-      text-transform: uppercase;
+      color: #64748b;
     }
-    .status-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
+    .status-text.online {
+      color: #10b981;
     }
-    .status-online { color: #10b981; }
-    .status-online .status-dot { background: #10b981; box-shadow: 0 0 10px #10b981; }
-    .status-offline { color: #64748b; }
-    .status-offline .status-dot { background: #64748b; }
+    .status-text.offline {
+      color: #ef4444;
+    }
 
     .player-list {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 10px;
     }
     .player-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 12px 14px;
-      background: #131722;
-      border: 1px solid #1f2536;
-      border-radius: 10px;
+      padding: 10px 12px;
+      background: #161922;
+      border: 1px solid #202533;
+      border-radius: 8px;
     }
     .player-info {
       display: flex;
       flex-direction: column;
-      gap: 2px;
+      gap: 1px;
     }
     .char-name {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
       color: #f1f5f9;
-      display: flex;
-      align-items: center;
-      gap: 7px;
-    }
-    .char-name .online-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: #10b981;
-      display: inline-block;
     }
     .player-name {
-      font-size: 12px;
+      font-size: 11px;
       color: #64748b;
     }
     .hearts {
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 2px;
       user-select: none;
     }
@@ -105,22 +90,19 @@
       text-align: center;
       color: #64748b;
       font-size: 13px;
-      padding: 24px 0;
+      padding: 18px 0;
     }
   </style>
 </head>
 <body>
   <div class="panel">
     <div class="header">
-      <div id="worldName" class="world-name">5MAN When</div>
-      <div id="worldStatus" class="status status-offline">
-        <span class="status-dot"></span>
-        <span id="statusText">Checking...</span>
-      </div>
+      <div class="title">DW HC</div>
+      <div class="status-line">Status: <span id="statusText" class="status-text">Checking...</span></div>
     </div>
 
     <div id="playerList" class="player-list">
-      <div class="empty">Loading realm...</div>
+      <div class="empty">Loading...</div>
     </div>
   </div>
 
@@ -144,15 +126,12 @@
     async function update() {
       try {
         const data = await fetchStatus();
-        document.getElementById('worldName').innerText = data.world || 'Worldbound';
-
-        const statusEl = document.getElementById('worldStatus');
         const textEl = document.getElementById('statusText');
         if (data.serverOnline) {
-          statusEl.className = 'status status-online';
+          textEl.className = 'status-text online';
           textEl.innerText = 'Online';
         } else {
-          statusEl.className = 'status status-offline';
+          textEl.className = 'status-text offline';
           textEl.innerText = 'Offline';
         }
 
@@ -160,10 +139,9 @@
         const players = data.players || [];
         if (players.length > 0) {
           listEl.innerHTML = players.map(p => {
-            const dot = p.isOnline ? '<span class="online-dot" title="In Realm"></span>' : '';
             return '<div class="player-row">' +
               '<div class="player-info">' +
-                '<div class="char-name">' + (p.charName || 'Adventurer') + dot + '</div>' +
+                '<div class="char-name">' + (p.charName || 'Adventurer') + '</div>' +
                 '<div class="player-name">' + (p.playerName || '') + '</div>' +
               '</div>' +
               '<div class="hearts">' + (p.hearts || '❤️❤️❤️') + '</div>' +

@@ -1,7 +1,7 @@
 {
   "serverOnline": true,
-  "world": "5MAN When",
-  "updatedAt": "2026-09-19T23:20:56.762Z",
+  "world": "DW HC",
+  "updatedAt": "2026-09-20T00:13:29.160Z",
   "players": [
     {
       "charName": "Nexus",
@@ -13,6 +13,13 @@
     {
       "charName": "Nico D. Vinland",
       "playerName": "I AM YUTA OKKOTSU",
+      "lives": 2,
+      "hearts": "❤️❤️🖤",
+      "isOnline": false
+    },
+    {
+      "charName": "retard",
+      "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
       "lives": 2,
       "hearts": "❤️❤️🖤",
       "isOnline": false
