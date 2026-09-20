@@ -107,20 +107,9 @@
   </div>
 
   <script>
-    const GIST_API = 'https://api.github.com/gists/232142008897e8e0d16703e99b7ec770';
-
     async function fetchStatus() {
-      try {
-        const res = await fetch(GIST_API + '?_t=' + Date.now(), { cache: 'no-store' });
-        if (res.ok) {
-          const gist = await res.json();
-          if (gist.files && gist.files['status.json'] && gist.files['status.json'].content) {
-            return JSON.parse(gist.files['status.json'].content);
-          }
-        }
-      } catch (err) {}
-      const local = await fetch('status.json?_t=' + Date.now(), { cache: 'no-store' });
-      return await local.json();
+      const res = await fetch('status.json?_t=' + Date.now(), { cache: 'no-store' });
+      return await res.json();
     }
 
     async function update() {
