@@ -1,20 +1,20 @@
 {
   "serverOnline": true,
   "world": "DW HC",
-  "updatedAt": "2026-09-20T05:14:54.503Z",
+  "updatedAt": "2026-09-20T14:15:56.449Z",
   "players": [
-    {
-      "charName": "Nexus",
-      "playerName": "Nexus",
-      "lives": 3,
-      "hearts": "❤️❤️❤️",
-      "isOnline": false
-    },
     {
       "charName": "Nico D. Vinland",
       "playerName": "I AM YUTA OKKOTSU",
       "lives": 2,
       "hearts": "❤️❤️🖤",
+      "isOnline": true
+    },
+    {
+      "charName": "Nexus",
+      "playerName": "Nexus",
+      "lives": 3,
+      "hearts": "❤️❤️❤️",
       "isOnline": false
     },
     {
