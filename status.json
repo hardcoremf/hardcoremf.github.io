@@ -1,7 +1,7 @@
 {
   "serverOnline": true,
   "world": "DW HC",
-  "updatedAt": "2026-09-20T03:09:23.994Z",
+  "updatedAt": "2026-09-20T03:24:53.872Z",
   "players": [
     {
       "charName": "Nexus",
@@ -15,7 +15,7 @@
       "playerName": "I AM YUTA OKKOTSU",
       "lives": 2,
       "hearts": "❤️❤️🖤",
-      "isOnline": true
+      "isOnline": false
     },
     {
       "charName": "retard",
