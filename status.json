@@ -1,7 +1,7 @@
 {
   "serverOnline": true,
   "world": "DW HC",
-  "updatedAt": "2026-09-20T21:44:28.335Z",
+  "updatedAt": "2026-09-20T23:53:59.015Z",
   "players": [
     {
       "charName": "Nexus",
@@ -11,15 +11,15 @@
       "isOnline": true
     },
     {
-      "charName": "Nico D. Vinland",
-      "playerName": "ASHITO AOI",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    },
-    {
       "charName": "retard",
       "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
+      "lives": 2,
+      "hearts": "❤️❤️🖤",
+      "isOnline": true
+    },
+    {
+      "charName": "Nico D. Vinland",
+      "playerName": "ASHITO AOI",
       "lives": 2,
       "hearts": "❤️❤️🖤",
       "isOnline": false
