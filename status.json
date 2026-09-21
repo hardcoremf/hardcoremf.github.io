@@ -2,7 +2,7 @@
   "serverOnline": true,
   "world": "DW HC",
   "joinCode": "4PXY-02MB",
-  "updatedAt": "2026-09-21T01:18:52.122Z",
+  "updatedAt": "2026-09-21T01:32:22.145Z",
   "players": [
     {
       "charName": "Nexus",
@@ -23,7 +23,7 @@
       "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
       "lives": 2,
       "hearts": "❤️❤️🖤",
-      "isOnline": false
+      "isOnline": true
     }
   ]
 }
