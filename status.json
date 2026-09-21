@@ -2,7 +2,7 @@
   "serverOnline": true,
   "world": "DW HC",
   "joinCode": "4PXY-02MB",
-  "updatedAt": "2026-09-21T15:47:25.499Z",
+  "updatedAt": "2026-09-21T16:33:21.841Z",
   "players": [
     {
       "charName": "Nico D. Vinland",
@@ -12,17 +12,17 @@
       "isOnline": true
     },
     {
-      "charName": "Nexus",
-      "playerName": "Nexus",
-      "lives": 3,
-      "hearts": "❤️❤️❤️",
-      "isOnline": false
-    },
-    {
       "charName": "retard",
       "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
       "lives": 2,
       "hearts": "❤️❤️🖤",
+      "isOnline": true
+    },
+    {
+      "charName": "Nexus",
+      "playerName": "Nexus",
+      "lives": 3,
+      "hearts": "❤️❤️❤️",
       "isOnline": false
     }
   ]
