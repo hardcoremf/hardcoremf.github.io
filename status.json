@@ -2,8 +2,15 @@
   "serverOnline": true,
   "world": "DW HC",
   "joinCode": "4PXY-02MB",
-  "updatedAt": "2026-09-22T01:02:57.756Z",
+  "updatedAt": "2026-09-22T01:48:24.265Z",
   "players": [
+    {
+      "charName": "FG",
+      "playerName": "lil aids",
+      "lives": 3,
+      "hearts": "❤️❤️❤️",
+      "isOnline": false
+    },
     {
       "charName": "Nexus",
       "playerName": "Nexus",
