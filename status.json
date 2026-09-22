@@ -1,21 +1,21 @@
 {
-  "serverOnline": true,
+  "serverOnline": false,
   "world": "DW HC",
-  "joinCode": "630F-6ZLN",
-  "updatedAt": "2026-09-22T02:21:27.667Z",
+  "joinCode": "",
+  "updatedAt": "2026-09-22T02:22:24.109Z",
   "players": [
     {
       "charName": "FG",
       "playerName": "lil aids",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
+      "lives": 3,
+      "hearts": "❤️❤️❤️",
       "isOnline": false
     },
     {
       "charName": "Nexus",
       "playerName": "Nexus",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
+      "lives": 3,
+      "hearts": "❤️❤️❤️",
       "isOnline": false
     },
     {
