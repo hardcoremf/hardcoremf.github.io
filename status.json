@@ -2,7 +2,7 @@
   "serverOnline": true,
   "world": "DW HC",
   "joinCode": "4PXY-02MB",
-  "updatedAt": "2026-09-22T01:49:57.843Z",
+  "updatedAt": "2026-09-22T01:52:24.377Z",
   "players": [
     {
       "charName": "FG",
@@ -12,15 +12,15 @@
       "isOnline": true
     },
     {
-      "charName": "Nexus",
-      "playerName": "Nexus",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    },
-    {
       "charName": "Nico D. Vinland",
       "playerName": "I AM YUTA OKKOTSU",
+      "lives": 2,
+      "hearts": "❤️❤️🖤",
+      "isOnline": true
+    },
+    {
+      "charName": "Nexus",
+      "playerName": "Nexus",
       "lives": 2,
       "hearts": "❤️❤️🖤",
       "isOnline": false
