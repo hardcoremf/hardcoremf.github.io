@@ -2,8 +2,15 @@
   "serverOnline": true,
   "world": "DW HC",
   "joinCode": "L434-EMPF",
-  "updatedAt": "2026-09-22T02:33:18.615Z",
+  "updatedAt": "2026-09-22T02:37:54.167Z",
   "players": [
+    {
+      "charName": "retard",
+      "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
+      "lives": 2,
+      "hearts": "❤️❤️🖤",
+      "isOnline": true
+    },
     {
       "charName": "FG",
       "playerName": "lil aids",
@@ -21,13 +28,6 @@
     {
       "charName": "Nico D. Vinland",
       "playerName": "I AM YUTA OKKOTSU",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    },
-    {
-      "charName": "retard",
-      "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
       "lives": 2,
       "hearts": "❤️❤️🖤",
       "isOnline": false
