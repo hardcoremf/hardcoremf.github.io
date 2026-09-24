@@ -2,8 +2,15 @@
   "serverOnline": true,
   "world": "DW HC",
   "joinCode": "GA39-31C5",
-  "updatedAt": "2026-09-23T17:37:02.798Z",
+  "updatedAt": "2026-09-24T02:53:04.703Z",
   "players": [
+    {
+      "charName": "retard",
+      "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
+      "lives": 2,
+      "hearts": "❤️❤️🖤",
+      "isOnline": true
+    },
     {
       "charName": "FG",
       "playerName": "lil aids",
@@ -21,13 +28,6 @@
     {
       "charName": "Nico D. Vinland",
       "playerName": "I AM YUTA OKKOTSU",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    },
-    {
-      "charName": "retard",
-      "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
       "lives": 2,
       "hearts": "❤️❤️🖤",
       "isOnline": false
