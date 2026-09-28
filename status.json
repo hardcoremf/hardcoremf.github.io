@@ -1,8 +1,8 @@
 {
   "serverOnline": false,
   "world": "DW HC",
-  "joinCode": "GA39-31C5",
-  "updatedAt": "2026-09-28T08:00:06.711Z",
+  "joinCode": "",
+  "updatedAt": "2026-09-28T08:00:25.966Z",
   "players": [
     {
       "charName": "FG",
@@ -32,7 +32,5 @@
       "hearts": "❤️❤️🖤",
       "isOnline": false
     }
-  ],
-  "maintenance": true,
-  "maintenanceMessage": "Daily maintenance in progress (4:00 AM - 5:00 AM). Relaunching at 5:00 AM."
+  ]
 }
