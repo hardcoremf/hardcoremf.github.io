@@ -1,36 +1,6 @@
 {
   "serverOnline": false,
   "world": "DW HC",
-  "joinCode": "",
-  "updatedAt": "2026-09-30T06:31:42.723Z",
-  "players": [
-    {
-      "charName": "FG",
-      "playerName": "lil aids",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    },
-    {
-      "charName": "Nexus",
-      "playerName": "Nexus",
-      "lives": 3,
-      "hearts": "❤️❤️❤️",
-      "isOnline": false
-    },
-    {
-      "charName": "Nico D. Vinland",
-      "playerName": "I AM YUTA OKKOTSU",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    },
-    {
-      "charName": "retard",
-      "playerName": "AAAAHAHAHHAHAHAHAHAHAHA",
-      "lives": 2,
-      "hearts": "❤️❤️🖤",
-      "isOnline": false
-    }
-  ]
+  "updatedAt": "2026-10-01T20:40:26.557Z",
+  "players": []
 }
